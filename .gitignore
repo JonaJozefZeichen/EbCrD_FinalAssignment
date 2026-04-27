@@ -1,9 +1,8 @@
 # This .gitignore file should be placed at the root of your Unity project directory
 #
+
+.idea/
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
-#
-# Recommended: add any editor/OS/tool-specific ignore rules from the Global/ templates as needed.
-# See: https://github.com/github/gitignore/tree/main/Global
 #
 .utmp/
 /[Ll]ibrary/
@@ -36,6 +35,7 @@
 
 # Visual Studio cache directory
 .vs/
+.vscode/
 
 # Gradle cache directory
 .gradle/
@@ -46,7 +46,6 @@ ExportedObj/
 *.csproj
 *.unityproj
 *.sln
-*.slnx
 *.suo
 *.tmp
 *.user
@@ -102,18 +101,3 @@ InitTestScene*.unity*
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
 
-# Auto-generated cache in Assets folder
-/[Aa]ssets/[Ss]ceneDependencyCache*
-
-# Visual Studio / Rider / Temp files
-.vs/
-.idea/
-*.csproj
-*.sln
-*.suo
-*.user
-*.userprefs
-*.pidb
-*.polyql
-*.apk
-*.unitypackage

@@ -3,13 +3,13 @@ using UnityEngine.InputSystem;
 
 public class PlayerInputController : MonoBehaviour
 {
-    public Vector2 MovementInputVector { get; private set; }
+    public Vector2 PlayerInputVector { get; private set; }
 
 
-    //define that we recieve an InpuValue from the UnityEngine
+    //define that we receive an InputValue from the UnityEngine
     private void OnMove(InputValue inputValue)
     {
         //Debug.Log(inputValue.Get<Vector2>());
-        MovementInputVector = inputValue.Get<Vector2>();
+        PlayerInputVector = inputValue.Get<Vector2>();
     }
 }

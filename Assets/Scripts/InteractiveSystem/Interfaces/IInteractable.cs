@@ -2,6 +2,7 @@ using UnityEngine;
 
 namespace InteractiveSystem.Interfaces
 {
+   //IInteractable definition of the interface
    public interface  IInteractable{
 
       Transform Transform { get; }
@@ -12,7 +13,7 @@ namespace InteractiveSystem.Interfaces
 
       void Interact();
 
-      bool OnFocusGained();
+      void OnFocusGained();
    
       void OnFocusLost();
 

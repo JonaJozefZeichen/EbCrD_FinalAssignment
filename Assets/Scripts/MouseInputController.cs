@@ -8,8 +8,8 @@ public class MouseInputController : MonoBehaviour
     //define that we receive an InputValue from the UnityEngine
     private void OnMouseMovement(InputValue inputValue)
     {
-        //recieves 2 vectors from mouse which we defined in the ActionInputSystem, Vector 2 takes the x and y vectors
-        Debug.Log(inputValue.Get<Vector2>());
+        //receives 2 vectors from mouse which we defined in the ActionInputSystem, Vector 2 takes the x and y vectors
+        //Debug.Log(inputValue.Get<Vector2>());
         MouseInputVector = inputValue.Get<Vector2>();
     }
 }

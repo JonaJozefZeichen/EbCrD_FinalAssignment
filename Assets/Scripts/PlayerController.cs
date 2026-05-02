@@ -6,15 +6,13 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float speed;
 
     private PlayerInputController _playerInputController;
-    private CameraController _cameraController;
-    Rigidbody _rb;
+   
 
     //public Transform orientation;
 
     private void Start()
     {
         _playerInputController = GetComponent<PlayerInputController>();
-        _rb = GetComponent<Rigidbody>();
     }
 
     private void Update()

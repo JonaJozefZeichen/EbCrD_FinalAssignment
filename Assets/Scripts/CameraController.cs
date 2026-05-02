@@ -15,7 +15,7 @@ public class CameraController : MonoBehaviour
     private void Start()
     {
         // Cursor.lockState = CursorLockMode.Locked;
-        // Cursor.visible = false;
+        Cursor.visible = false;
         //define where the inputs come from, so we can use the previously defined mouse inputs in the code
         _mouseInputController = GetComponent<MouseInputController>();
     }

@@ -398,6 +398,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerRaycast
   distanceToTarget: 0
+--- !u!114 &587919863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587919854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7381a4c7bfc15fc48a3dbfe7481f746c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerInputController
 --- !u!1001 &763378130
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -592,6 +604,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1652686316104989869, guid: 3226fe58cfb4df84cab4839a6d138c5a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 587919862}
+    - targetCorrespondingSourceObject: {fileID: 1652686316104989869, guid: 3226fe58cfb4df84cab4839a6d138c5a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 587919863}
   m_SourcePrefab: {fileID: 100100000, guid: 3226fe58cfb4df84cab4839a6d138c5a, type: 3}
 --- !u!1 &1138104706
 GameObject:
@@ -719,6 +734,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8202664008658518623, guid: 7eb96deae905f47ca9b3b4de9925bc82, type: 3}
+      propertyPath: isPickedUp
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -8202664008658518623, guid: 7eb96deae905f47ca9b3b4de9925bc82, type: 3}
       propertyPath: onInteract
       value: 
